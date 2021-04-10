@@ -1,0 +1,162 @@
+html{
+    /* height: 100%;
+    background: radial-gradient(circle,#fff,#ccc); */
+    background-image: url(./border-template-with-kids-and-numbers-vector-18361725.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#container{
+height: 500px;
+width: 550px;
+background-color:#bedcfa ;
+margin:50px auto ;
+margin-top: 170px;
+padding: 20px;
+border-radius: 30px;
+box-shadow: 4px 4px 0px;
+position:relative;
+
+}
+#score{
+    background-color:#f1ff92 ;
+    color:#888E5F;
+    padding: 10px;
+    position: absolute;
+    left:500px;
+    box-shadow: 4px 4px 4px;
+    border-radius: 30px;
+    font-family:cursive;
+    display: none;
+}
+#correct{
+    position: absolute;
+    left:260px;
+    background-color: #2eb63c;
+    color: white;
+    padding: 11px;
+display: none;
+}
+#wrong{
+    position: absolute;
+    left:260px;
+    background-color: #d32b2b;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+#question{
+    width: 400px;
+    height: 150px;
+    margin:50px auto 10px auto;
+    background-color: #b088f9;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px;
+    font-size: 100px;
+    text-align: center;
+    font-family:cursive;
+
+}
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: #da9ff9;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px;
+    margin:20px auto ;
+    text-align: center; 
+    line-height: 45px;
+    font-family:cursive;
+}
+#choices{
+    height: 150px;
+    width: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-left:27px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+    font-family:cursive;
+
+}
+
+.box:hover{
+    background-color: #98acf8;
+    box-shadow: 4px 4px 4px;
+    color: white;  
+}
+.box:active{
+    box-shadow: 0px 0px 4px ;
+    top:10px
+
+}
+
+#startreset{
+
+    width: 200px;
+    margin:0px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    background-color: #54e346;
+    font-family:cursive;
+
+}
+#startreset:hover{
+    background-color: #98acf8;
+    box-shadow: 4px 4px 4px black;
+    color: white;  
+}
+#startreset:active{
+    box-shadow: 0px 0px 4px ;
+    top:20px
+}
+#timeremaining{
+    width: 100px;
+    margin:0px auto;
+    position: absolute;
+    top: 480px;
+    left: 450px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+    background-color: #f1ff92;
+    color:#888E5F ;
+    font-family:cursive;
+    display: none;
+
+}
+#gameOver{
+    height: 250px;
+    width: 500px;
+    background: linear-gradient(#f3ca6b,#f3706c);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:cursive;
+    border-radius: 30px;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    z-index:2;
+    display: none;
+
+}
